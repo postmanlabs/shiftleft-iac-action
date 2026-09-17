@@ -10,6 +10,7 @@ permissions:
 jobs:
   iac_scan_job:
     runs-on: ubuntu-latest
+    timeout-minutes: 20
     permissions:
       security-events: write
     steps:
